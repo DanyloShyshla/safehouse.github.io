@@ -23,7 +23,9 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
+.icon-wrench:before {
+  content: "\e900";
+}
 .icon-eye:before {
   content: "\e000";
 }
