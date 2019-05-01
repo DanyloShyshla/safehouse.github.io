@@ -580,13 +580,19 @@ form label {
 #gtco-features,
 #gtco-features-2,
 #gtco-testimonial,
-#gtco-services,
 #gtco-started,
-#gtco-footer,
 .gtco-section {
   padding: 7em 0;
   clear: both;
 }
+
+#gtco-services,
+#gtco-footer,
+.gtco-section {
+  padding: 1em 0;
+  clear: both;
+}
+
 @media screen and (max-width: 768px) {
   #gtco-features,
   #gtco-features-2,
@@ -1189,7 +1195,6 @@ form label {
 }
 @media screen and (max-width: 768px) {
   .gtco-nav-toggle {
-    display: block;
   }
   #gtco-offcanvas {
     display: block;
